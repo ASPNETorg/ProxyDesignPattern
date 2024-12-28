@@ -1,13 +1,11 @@
 using Microsoft.EntityFrameworkCore;
-using S11.ProxyDesignPattern.Sample01.ApplicationServices.Convertor.Frameworks.Contracts;
-using S11.ProxyDesignPattern.Sample01.ApplicationServices.Convertor.Services;
+using S11.ProxyDesignPattern.Sample01.ApplicationServices.Contracts;
 using S11.ProxyDesignPattern.Sample01.ApplicationServices.Dtos.Person;
-using S11.ProxyDesignPattern.Sample01.ApplicationServices.Frameworks.Contracts;
 using S11.ProxyDesignPattern.Sample01.ApplicationServices.Services;
 using S11.ProxyDesignPattern.Sample01.Models;
 using S11.ProxyDesignPattern.Sample01.Models.DomainModels;
-using S11.ProxyDesignPattern.Sample01.Models.Frameworks.Contracts;
-using S11.ProxyDesignPattern.Sample01.Models.Services;
+using S11.ProxyDesignPattern.Sample01.Models.Services.Contracts;
+using S11.ProxyDesignPattern.Sample01.Models.Services.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +16,7 @@ builder.Services.AddDbContext<ProjectDbContext>(options =>
     throw new InvalidOperationException("Connection string 'Default' not found.")));
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 builder.Services.AddScoped<IPersonService, PersonService>();
-builder.Services.AddScoped<IConvertor<PostPersonDto, Person>, PersonConvertor>();
+//builder.Services.AddScoped<IConvertor<PostPersonDto, Person>, PersonConvertor>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
