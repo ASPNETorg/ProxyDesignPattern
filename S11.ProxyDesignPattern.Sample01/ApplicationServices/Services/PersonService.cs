@@ -34,7 +34,7 @@ namespace S11.ProxyDesignPattern.Sample01.ApplicationServices.Services
         }
         #endregion
 
-        #region [- Get -]
+        #region [- Get() -]
         public async Task<IResponse<GetPersonServiceDto>> Get(GetPersonServiceDto dto)
         {
            var preson = new Person()
@@ -57,7 +57,7 @@ namespace S11.ProxyDesignPattern.Sample01.ApplicationServices.Services
         } 
         #endregion
 
-        #region [- GetAll -]
+        #region [- GetAll() -]
         public async Task<IResponse<GetAllPersonServiceDto>> GetAll()
         {
             var selectAllResponse = await _personRepository.SelectAll();
@@ -88,7 +88,7 @@ namespace S11.ProxyDesignPattern.Sample01.ApplicationServices.Services
         }
         #endregion
 
-        #region [- Post -]
+        #region [- Post() -]
         public async Task<IResponse<PostPersonServiceDto>> Post(PostPersonServiceDto model)
         {
             //var p = _personRepository.Insert(PersonService.DtoConvertor(model));
