@@ -1,9 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using S11.ProxyDesignPattern.Sample01.ApplicationServices.Contracts;
-using S11.ProxyDesignPattern.Sample01.ApplicationServices.Dtos.Person;
 using S11.ProxyDesignPattern.Sample01.ApplicationServices.Services;
 using S11.ProxyDesignPattern.Sample01.Models;
-using S11.ProxyDesignPattern.Sample01.Models.DomainModels;
 using S11.ProxyDesignPattern.Sample01.Models.Services.Contracts;
 using S11.ProxyDesignPattern.Sample01.Models.Services.Repositories;
 

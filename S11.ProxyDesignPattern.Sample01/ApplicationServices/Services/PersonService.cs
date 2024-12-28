@@ -35,9 +35,25 @@ namespace S11.ProxyDesignPattern.Sample01.ApplicationServices.Services
         #endregion
 
         #region [- Get -]
-        public Task<IResponse<GetPersonServiceDto>> Get(GetPersonServiceDto dto)
+        public async Task<IResponse<GetPersonServiceDto>> Get(GetPersonServiceDto dto)
         {
-            throw new NotImplementedException();
+           var preson = new Person()
+           {
+               Id = dto.Id,
+               FName = dto.Firstname,
+               LName = dto.Lastname,
+               Email = dto.Email,
+           };
+           var selectResponse = await _personRepository.Select(preson);
+             var getPersonServiceDto = new GetPersonServiceDto()
+            {
+                Id = selectResponse.Value.Id,
+                Firstname = selectResponse.Value.FName,
+                Lastname = selectResponse.Value.LName,
+                Email = selectResponse.Value.Email
+            };
+            var response = new Response<GetPersonServiceDto>(true, HttpStatusCode.OK,"SuccessfullOperation", getPersonServiceDto);
+            return response;
         } 
         #endregion
 
@@ -73,16 +89,28 @@ namespace S11.ProxyDesignPattern.Sample01.ApplicationServices.Services
         #endregion
 
         #region [- Post -]
-        public Task Post(PostPersonServiceDto model)
+        public async Task<IResponse<PostPersonServiceDto>> Post(PostPersonServiceDto model)
         {
-            var p = _personRepository.Insert(PersonService.DtoConvertor(model));
-            return p;
-        } 
+            //var p = _personRepository.Insert(PersonService.DtoConvertor(model));
+            //return p;
+            var PostedpPerson = new Person()
+            {
+                Id = new Guid(),
+                FName = model.Firstname,
+                LName = model.Lastname,
+                Email = model.Email,
+            };
+            var insrtedPerson = await _personRepository.Insert(PostedpPerson);
+            var response = new Response<PostPersonServiceDto>(true, HttpStatusCode.OK, "SuccessfullOperation", model);
+            return response;
+        }
         #endregion
 
+        #region [- IService() -]
         Task<IResponse<PostPersonServiceDto>> IService<PostPersonServiceDto, GetPersonServiceDto, GetAllPersonServiceDto>.Post(PostPersonServiceDto dto)
         {
             throw new NotImplementedException();
-        }
+        } 
+        #endregion
     }
 }

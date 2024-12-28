@@ -5,8 +5,11 @@ namespace S11.ProxyDesignPattern.Sample01.Frameworks.ResponseFrameworks
 {
     public class Response<T> : IResponse<T>
     {
-        //public Response() { }
+        public Response()
+        {
 
+        }
+           
         public Response(bool isSuccessful, HttpStatusCode status, string? message, T? value)
         {
             IsSuccessful = isSuccessful;
