@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\PC\\Source\\Repos\\ProxyDesignPattern\\S11.ProxyDesignPattern.Sample01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\S11.ProxyDesignPattern.Sample01.bundle.scp.css",
-      "PackagePath": "staticwebassets\\S11.ProxyDesignPattern.Sample01.u0yu8mu543.bundle.scp.css"
+      "Id": "C:\\Users\\PC\\Source\\Repos\\ProxyDesignPattern\\S11.ProxyDesignPattern.Sample01\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProxyDesignPattern.Sample01.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProxyDesignPattern.Sample01.8ryrnebwln.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\PC\\Source\\Repos\\ProxyDesignPattern\\S11.ProxyDesignPattern.Sample01\\wwwroot\\css\\site.css",
@@ -249,24 +249,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.S11.ProxyDesignPattern.Sample01.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProxyDesignPattern.Sample01.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.S11.ProxyDesignPattern.Sample01.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProxyDesignPattern.Sample01.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.S11.ProxyDesignPattern.Sample01.props",
-      "PackagePath": "build\\S11.ProxyDesignPattern.Sample01.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProxyDesignPattern.Sample01.props",
+      "PackagePath": "build\\ProxyDesignPattern.Sample01.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.S11.ProxyDesignPattern.Sample01.props",
-      "PackagePath": "buildMultiTargeting\\S11.ProxyDesignPattern.Sample01.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProxyDesignPattern.Sample01.props",
+      "PackagePath": "buildMultiTargeting\\ProxyDesignPattern.Sample01.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.S11.ProxyDesignPattern.Sample01.props",
-      "PackagePath": "buildTransitive\\S11.ProxyDesignPattern.Sample01.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProxyDesignPattern.Sample01.props",
+      "PackagePath": "buildTransitive\\ProxyDesignPattern.Sample01.props"
     }
   ],
   "ElementsToRemove": []

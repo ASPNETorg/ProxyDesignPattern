@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Source\\Repos\\ProxyDesignPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2154247D-A7C2-4D58-927A-B8250BC02E15}|S11.ProxyDesignPattern.Sample01\\ProxyDesignPattern.Sample01.csproj|c:\\users\\pc\\source\\repos\\proxydesignpattern\\s11.proxydesignpattern.sample01\\views\\person\\person.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2154247D-A7C2-4D58-927A-B8250BC02E15}|S11.ProxyDesignPattern.Sample01\\ProxyDesignPattern.Sample01.csproj|solutionrelative:s11.proxydesignpattern.sample01\\views\\person\\person.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\ProxyDesignPattern\\S11.ProxyDesignPattern.Sample01\\Views\\Person\\Person.cshtml",
+              "RelativeDocumentMoniker": "S11.ProxyDesignPattern.Sample01\\Views\\Person\\Person.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\ProxyDesignPattern\\S11.ProxyDesignPattern.Sample01\\Views\\Person\\Person.cshtml",
+              "RelativeToolTip": "S11.ProxyDesignPattern.Sample01\\Views\\Person\\Person.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T12:41:01.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

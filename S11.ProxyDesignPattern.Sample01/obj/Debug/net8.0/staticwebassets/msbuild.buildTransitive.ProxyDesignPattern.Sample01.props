@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ProxyDesignPattern.Sample01.props" />
+</Project>
